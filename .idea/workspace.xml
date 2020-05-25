@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ba80982-27da-4517-a7d0-f5ae563033ef" name="Default Changelist" comment="H02 klaar" />
+    <list default="true" id="4ba80982-27da-4517-a7d0-f5ae563033ef" name="Default Changelist" comment="H02 klaar">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/h03/opdracht1.html" beforeDir="false" afterPath="$PROJECT_DIR$/h03/opdracht1.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +67,7 @@
       <workItem from="1590095955734" duration="1724000" />
       <workItem from="1590098826186" duration="3181000" />
       <workItem from="1590149205725" duration="5472000" />
+      <workItem from="1590419244317" duration="5384000" />
     </task>
     <task id="LOCAL-00001" summary="h02 klaar">
       <created>1590097670958</created>
