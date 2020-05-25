@@ -19,9 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ba80982-27da-4517-a7d0-f5ae563033ef" name="Default Changelist" comment="opdracht1: cat shuffle af">
-      <change afterPath="$PROJECT_DIR$/h03/index.html" afterDir="false" />
+    <list default="true" id="4ba80982-27da-4517-a7d0-f5ae563033ef" name="Default Changelist" comment="index h03 toegevoegd met opdracht 1">
+      <change afterPath="$PROJECT_DIR$/h04/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h04/opdracht1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h04/opdracht1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/h03/opdracht1.html" beforeDir="false" afterPath="$PROJECT_DIR$/h03/opdracht1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -43,6 +47,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cE9DjY5s5XKJfBXoRDN7gD5fEu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -67,7 +74,7 @@
       <workItem from="1590095955734" duration="1724000" />
       <workItem from="1590098826186" duration="3181000" />
       <workItem from="1590149205725" duration="5472000" />
-      <workItem from="1590419244317" duration="6008000" />
+      <workItem from="1590419244317" duration="10028000" />
     </task>
     <task id="LOCAL-00001" summary="h02 klaar">
       <created>1590097670958</created>
@@ -118,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590436569969</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="index h03 toegevoegd met opdracht 1">
+      <created>1590436997252</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590436997252</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,17 +158,22 @@
     <MESSAGE value="aanpassingen gedaan" />
     <MESSAGE value="H02 klaar" />
     <MESSAGE value="opdracht1: cat shuffle af" />
-    <option name="LAST_COMMIT_MESSAGE" value="opdracht1: cat shuffle af" />
+    <MESSAGE value="index h03 toegevoegd met opdracht 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="index h03 toegevoegd met opdracht 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1590151351277">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1590151351277" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590436571997">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590438916387">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-104.1536.824@0.0.1920.1040" timestamp="1590438916387" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590437000241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590155329295" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-104.1536.824@0.0.1920.1040" timestamp="1590436571997" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-104.1536.824@0.0.1920.1040" timestamp="1590437000241" />
   </component>
 </project>
