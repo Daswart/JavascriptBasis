@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>crookapp</title>
+</head>
+<style>
+    #slideholder1, #slideholder2, #slideholder3 {
+        height: 90px;
+        width: 160px;
+
+
+    }
+    div{
+        margin-bottom: -10px;
+    }
+</style>
+<body>
+<div id="slideholder1"></div>
+<div id="slideholder2"></div>
+<div id="slideholder3"></div>
+
+<script>
+    var plaatjes = [1,2,3]
+    var teller = 0;
+    var slideholder1 = document.getElementById("slideholder1");
+    var slideholder2 = document.getElementById("slideholder2");
+    var slideholder3 = document.getElementById("slideholder3");
+
+    slideholder1.style.backgroundImage = "url('../img/ogen1.jpg')";
+    slideholder2.style.backgroundImage = "url('../img/neus1.jpg')";
+    slideholder3.style.backgroundImage = "url('../img/mond1.jpg')";
+
+    slideholder1.addEventListener("click", function () {
+
+        slideholder1.style.backgroundImage = "url('../img/ogen" + getImage() + ".jpg')"
+
+
+    });
+
+    slideholder2.addEventListener("click", function () {
+
+        slideholder2.style.backgroundImage = "url('../img/neus" + getImage() + ".jpg')"
+
+
+    });
+
+    slideholder3.addEventListener("click", function () {
+
+        slideholder3.style.backgroundImage = "url('../img/mond" + getImage() + ".jpg')"
+
+
+    });
+
+    function getImage() {
+        if (teller >= plaatjes.length) {
+            teller = 1;
+        } else {
+            teller++;
+        }
+        console.log(teller);
+        return teller;
+    }
+
+</script>
+<a href="index.html">< Terug naar index h04</a>
+
+</body>
+</html>
