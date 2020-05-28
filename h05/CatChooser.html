@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Choose yer Monkey</title>
+    <link href="https://fonts.googleapis.com/css2?family=Copse&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Copse', serif;
+            text-align: center;
+        }
+
+        div.imageholder {
+            box-sizing: border-box;
+            height: 450px;
+            width: 300px;
+            float: left;
+            background-color: lightblue;
+
+        }
+        div.favorite{
+            width: 300px;
+            height: 150px;
+
+        }
+
+        #imageswrapper {
+            width: 900px;
+            height: 1350px;
+
+            font-size: 0;
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Catchooser</h1>
+<h3>Choose yer favorite Cat!</h3>
+<div id=imageswrapper>
+
+</div>
+<script>
+    imageswrapper = document.getElementById("imageswrapper");
+
+    //aanroepen van de de methodes
+    createImageHolders();
+    addCatImage();
+
+
+    //functie om 9x een imageholder aan te maken en toe te voegen aan de imageswrapper-div.
+    function createImageHolders() {
+        for (var i = 0; i < 9; i++) {
+
+            //aanmaken van div met de class imageholder
+            newImgHolder = document.createElement("div");
+            newImgHolder.className = "imageholder";
+
+            //id toevoegen aan elk van de negen imageholders
+            newImgHolder.id = "image-holder" + i;
+
+            //voeg div.imageholder aan imageswrapper toe.
+            imageswrapper.appendChild(newImgHolder);
+        }
+
+    }
+
+    function addCatImage() {
+        imgHolders = document.getElementsByClassName("imageholder");
+        for (i = 0; i < imgHolders.length; i++) {
+            favorite = document.createElement("div");
+            favorite.className = "favorite";
+            favorite.id = "favorite" + (i + 1);
+
+
+            catImage = document.createElement('img')
+            catImage.src = "../img/kat" + (i + 1) + ".jpg";
+            catImage.id = (i+1);
+            catImage.addEventListener("click", function () {
+                selectFavorite(this.id);
+            });
+            imgHolders[i].appendChild(favorite);
+            imgHolders[i].appendChild(catImage);
+        }
+
+    }
+
+    function selectFavorite(id) {
+        console.log("Mijn favoriete kat = " + id);
+        notFavorite = document.getElementsByClassName("favorite")
+
+        for(i = 0; i < notFavorite.length; i++){
+            notFavorite[i].style.backgroundImage = "none";
+        }
+
+        favorite = document.getElementById("favorite" + id);
+        favorite.style.backgroundImage = "url('../img/hartje.png')";
+    }
+
+
+</script>
+</body>
+</html>
