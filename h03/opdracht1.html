@@ -7,8 +7,8 @@
 
     <style>
         html{
-            margin: 0 ;
-            padding: 0  ;
+            margin: 0;
+            padding: 0;
         }
         body{
             font-family: 'Copse', serif;
@@ -29,17 +29,36 @@
 <body>
 <h1>CatShuffle</h1>
 <div id="pics">
-    <img src="../img/kat1.jpg" alt="kat" title="kat">
-    <img src="../img/kat2.jpg" alt="kat">
-    <img src="../img/kat3.jpg" alt="kat">
-    <img src="../img/kat4.jpg" alt="kat">
-    <img src="../img/kat5.jpg" alt="kat">
-    <img src="../img/kat6.jpg" alt="kat">
-    <img src="../img/kat7.jpg" alt="kat">
-    <img src="../img/kat8.jpg" alt="kat">
-    <img src="../img/kat9.jpg" alt="kat">
+    <img src="../img/kat1.jpg" alt="kat" title="randomkat1">
+    <img src="../img/kat2.jpg" alt="kat" title="randomkat2">
+    <img src="../img/kat3.jpg" alt="kat" title="randomkat3">
+    <img src="../img/kat4.jpg" alt="kat" title="Chaz">
+    <img src="../img/kat5.jpg" alt="kat" title="Muis">
+    <img src="../img/kat6.jpg" alt="kat" title="Trica">
+    <img src="../img/kat7.jpg" alt="kat" title="Daisy">
+    <img src="../img/kat8.jpg" alt="kat" title="Streufel">
+    <img src="../img/kat9.jpg" alt="kat" title="Bunny">
 
 </div>
+<script>
+    var plaatjes = document.getElementsByTagName("img");
+    var randomNumbers = [];
+    var random = 0;
+
+    while (randomNumbers.length < 9) {
+        random = Math.floor(Math.random() * 9) + 1;
+        if (randomNumbers.lastIndexOf(random) === -1) {
+            randomNumbers.push(random)
+        }
+
+    }
+    random = 0
+    for (var plaatje in plaatjes) {
+        plaatjes[plaatje].src = "../img/kat" + randomNumbers[random] + ".jpg";
+        random++;
+
+    }
+</script>
 
 </body>
 </html>
