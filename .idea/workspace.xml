@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ba80982-27da-4517-a7d0-f5ae563033ef" name="Default Changelist" comment="plaatjes toegevoegd">
-      <change afterPath="$PROJECT_DIR$/ExtraOpdrachten/Button.html" afterDir="false" />
+    <list default="true" id="4ba80982-27da-4517-a7d0-f5ae563033ef" name="Default Changelist" comment="Oefenopracht Button">
       <change afterPath="$PROJECT_DIR$/ExtraOpdrachten/beerchoser.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ExtraOpdrachten/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/smiley.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtraOpdrachten/Button.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtraOpdrachten/Button.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
       <workItem from="1593534990573" duration="2098000" />
       <workItem from="1593767347229" duration="8601000" />
       <workItem from="1593972676293" duration="297000" />
-      <workItem from="1594028102508" duration="1260000" />
+      <workItem from="1594028102508" duration="3525000" />
     </task>
     <task id="LOCAL-00001" summary="h02 klaar">
       <created>1590097670958</created>
@@ -154,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593005887869</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Oefenopracht Button">
+      <created>1594029502086</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1594029502086</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +189,8 @@
     <MESSAGE value="html klaar" />
     <MESSAGE value="title veranderd in Index h05" />
     <MESSAGE value="plaatjes toegevoegd" />
-    <option name="LAST_COMMIT_MESSAGE" value="plaatjes toegevoegd" />
+    <MESSAGE value="Oefenopracht Button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oefenopracht Button" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1590151351277">
@@ -194,11 +201,11 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2620" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591627303087" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1593005922535">
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1594029507319">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591184382181" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593005922535" />
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594029507319" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-104.1536.824@0.0.1920.1040" timestamp="1590102048026" />
     <state x="552" y="282" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1590336953827" />
     <state x="1946" y="115" width="1524" height="910" key="dock-window-1" timestamp="1592487371097">

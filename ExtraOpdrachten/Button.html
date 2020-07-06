@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Buttons</title>
+    <style>
+        body {
+            margin: auto;
+            width: 500px;
+            height: 500px;
+            padding-top: 10px;
+            text-align: center;
+
+        }
+    </style>
 </head>
+
 <body>
-<button type="button"  onclick="nietKlikken()">
+<button type="button" onclick="nietKlikken()">
     Niet klikken
 </button>
 
@@ -14,14 +25,37 @@
 
 
 <script>
+    paragraph = document.querySelector("p");
+    image = document.getElementById("image")
+    var refreshButton = document.createElement("button")
+
     function nietKlikken() {
-        var paragraph = document.querySelector("p");
+
+
         paragraph.textContent = "Toch geklikt hè?";
 
-        var image = document.getElementById("image")
+
         image.setAttribute("src", "../img/smiley.png")
 
 
+        refreshButton.textContent = "Opnieuw";
+        refreshButton.style.display = "block";
+        refreshButton.style.marginLeft = "215px";
+        document.body.appendChild(refreshButton)
+        refreshButton.addEventListener("click", function () {
+            refresh()
+        })
+
+
+    }
+
+    function refresh() {
+        refreshButton.textContent = "";
+        refreshButton.style.backgroundColor = "";
+        refreshButton.style.display = "none";
+        refreshButton.style.marginLeft = "";
+        paragraph.textContent = "";
+        image.setAttribute("src", "")
 
     }
 
