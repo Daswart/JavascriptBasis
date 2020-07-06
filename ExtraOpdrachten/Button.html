@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buttons</title>
+</head>
+<body>
+<button type="button"  onclick="nietKlikken()">
+    Niet klikken
+</button>
+
+<p></p>
+<img src="" alt="" id="image">
+
+
+<script>
+    function nietKlikken() {
+        var paragraph = document.querySelector("p");
+        paragraph.textContent = "Toch geklikt hè?";
+
+        var image = document.getElementById("image")
+        image.setAttribute("src", "../img/smiley.png")
+
+
+
+    }
+
+</script>
+</body>
+</html>
