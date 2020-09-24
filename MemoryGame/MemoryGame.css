@@ -48,10 +48,8 @@ div#spelercontainer{
     grid-gap: 10px;
 
 }
-.kaartholder{
-    background: white;
+img{
     border: 1px solid black;
-    display: block;
     box-shadow: 10px 10px 20px;
 }
 button{
