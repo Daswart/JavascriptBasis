@@ -22,21 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ba80982-27da-4517-a7d0-f5ae563033ef" name="Default Changelist" comment="kaartcontainer + kaartholder + button + Javascript + ShowPlayer();">
-      <change afterPath="$PROJECT_DIR$/MemoryGame/.idea/MemoryGame.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MemoryGame/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MemoryGame/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MemoryGame/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+    <list default="true" id="4ba80982-27da-4517-a7d0-f5ae563033ef" name="Default Changelist" comment="....">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtraOpdrachten/Button.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemoryGame/MemoryGame.css" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryGame/MemoryGame.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemoryGame/MemoryGame.html" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryGame/MemoryGame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemoryGame/MemoryGame.js" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryGame/MemoryGame.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h03/opdracht1.html" beforeDir="false" afterPath="$PROJECT_DIR$/h03/opdracht1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h05/catchooser.html" beforeDir="false" afterPath="$PROJECT_DIR$/h05/catchooser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verdieping/memory-game.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/verdieping/memory-game.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +56,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/MemoryGame/MemoryGame.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MemoryGame/MemoryGame.html" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/test.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JsBowerSettings">
     <bower-package value="" />
@@ -90,7 +76,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../00-Prive documenten/00-Programeren" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -184,6 +170,7 @@
       <workItem from="1618586392800" duration="130000" />
       <workItem from="1619118521158" duration="678000" />
       <workItem from="1619696210233" duration="188000" />
+      <workItem from="1622535647650" duration="2339000" />
     </task>
     <task id="LOCAL-00001" summary="h02 klaar">
       <created>1590097670958</created>
@@ -276,7 +263,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600183209088</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="....">
+      <created>1622535753775</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1622535753775</updated>
+    </task>
+    <task id="LOCAL-00015" summary="....">
+      <created>1622535948317</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1622535948317</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +310,8 @@
     <MESSAGE value="Button aangepast" />
     <MESSAGE value="CSS van #spelercontainer af" />
     <MESSAGE value="kaartcontainer + kaartholder + button + Javascript + ShowPlayer();" />
-    <option name="LAST_COMMIT_MESSAGE" value="kaartcontainer + kaartholder + button + Javascript + ShowPlayer();" />
+    <MESSAGE value="...." />
+    <option name="LAST_COMMIT_MESSAGE" value="...." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
